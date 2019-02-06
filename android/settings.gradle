@@ -1,0 +1,3 @@
+rootProject.name = 'fingerprintpoc'
+
+include ':app'
