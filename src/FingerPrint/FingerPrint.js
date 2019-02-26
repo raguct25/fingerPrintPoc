@@ -1,14 +1,7 @@
 import React, { Component } from "react";
-import {
-  Alert,
-  Image,
-  Text,
-  TouchableOpacity,
-  View,
-  ViewPropTypes
-} from "react-native";
+import { Alert, Image, Text, TouchableOpacity, View } from "react-native";
 import FingerprintScanner from "react-native-fingerprint-scanner";
-import ShakingText from "../ShakingText.component";
+import ShakingText from "../Components/ShakingText";
 import styles from "./FingerPrintStyles";
 
 class FingerPrint extends Component {
@@ -32,7 +25,7 @@ class FingerPrint extends Component {
           [
             {
               text: "OK",
-              onPress: () => this.props.navigation.navigate("WelcomeScreenHome")
+              onPress: () => this.props.navigation.navigate("LoggedScreen")
             }
           ],
           { cancelable: false }

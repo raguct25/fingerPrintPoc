@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AppNavigator from "./AppNavigator";
+import AppNavigator from "./src/Navigation/AppNavigator";
 
 class App extends Component {
   constructor(props) {
