@@ -12,13 +12,6 @@ const styles = StyleSheet.create({
     color: "white",
     fontSize: 20,
     marginTop: 20
-  },
-  buttonStyle: {
-    alignItems: "center",
-    backgroundColor: "#841584",
-    height: 60,
-    width: 120,
-    margin: 15
   }
 });
 
